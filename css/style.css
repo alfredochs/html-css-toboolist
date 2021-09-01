@@ -56,5 +56,14 @@
 
 /* Parte Inferiore*/
 .container-list{
+    width: 90%;
+    background-color: blue;
+}
+.list-point{
+    margin: 40px;
     
+}
+
+.list-point-title{
+    font-weight: bold;
 }
