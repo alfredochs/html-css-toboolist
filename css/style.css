@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: auto;
     padding: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Logo */
@@ -22,7 +23,8 @@
 }
 #logo-text {
     line-height: 80px;
-    font: 30px bold;
+    font-size: 30px ;
+    font-weight: bold;
 }
 
 /* body */
@@ -56,6 +58,7 @@ body{
 }
 .first-add{
     background-color: lightblue;
+    color: white;
 }
 .second-add{
     color: grey;
@@ -80,6 +83,7 @@ body{
     padding: 5px;
     font-size: 10px;
     border-radius: 20px;
+    color: white;
 }
 .blue-bubble {
     background-color: lightblue;
@@ -90,7 +94,7 @@ body{
 }
 
 .green-bubble{
-    background-color: green;
+    background-color: #35ff35;
 }
 
 .orange-bubble{
