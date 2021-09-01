@@ -7,63 +7,101 @@
 /* Logo */
 .container-header{
     width: 100%;
-    height: 135px;
-    background-color: blue;
+    background-color: white;
 }
 #logo-img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-image: url("../img/Logo.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: inline-block;
     vertical-align: middle;
     padding-left: 10px;
-    margin: 25px;
+    margin: 10px;
 }
 #logo-text {
     line-height: 80px;
     font: 30px bold;
 }
 
-/* main */
-
+/* body */
+body{
+    background-color: #8080801c;
+}
 /* Parte Superiore */
-.container-main{
+
+.container{
     width: 70%;
-    height: 500px;
-    background-color: red;
-    margin-top: 50px;
-    border-bottom: 5px solid black;
+    height: 40%;
+    background-color: white;
+    margin-top: 40px;
+    line-height: 2.0;
 }
 
 .parte-superiore{
     padding: 10px;
-    background-color: yellow;
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid #8080801c;
 }
 
 .add{
     width: 80px;
     height: 30px;
-    background-color: salmon;
     display: inline;
     margin-left: 20px;
     margin-top: 20px;
     line-height: 50px;
     padding: 12px;
+    border-radius: 20px;
+}
+.first-add{
+    background-color: lightblue;
+}
+.second-add{
+    color: grey;
+    border: 1px solid grey;
 }
 
-/* Parte Inferiore*/
-.container-list{
-    width: 90%;
-    background-color: blue;
+/* Parte Inferiore */
+
+.down{
+    padding: 30px 0 10px 30px;
 }
 .list-point{
-    margin: 40px;
-    
+    margin-bottom: 30px;
+
 }
 
 .list-point-title{
     font-weight: bold;
+} 
+
+.bubble{
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 20px;
+}
+.blue-bubble {
+    background-color: lightblue;
+}
+
+.violet-bubble{
+    background-color: violet;
+}
+
+.green-bubble{
+    background-color: green;
+}
+
+.orange-bubble{
+    background-color: orange;
+}
+.pink-bubble{
+    background-color: pink;
+}
+.greenyellow-bubble{
+    background-color: greenyellow;
+}
+.no-list-stile{
+    list-style-type: none;
 }
