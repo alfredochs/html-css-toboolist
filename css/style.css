@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+}
+
+/* Logo */
+.container-header{
+    height: 135px;
+    background-color: blue;
+}
+#logo-img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin: 25px;
+}
+#logo-text {
+    line-height: 80px;
+    font: 30px bold;
+}
+
+/* main */
+
+.container-main{
+    width: 70%;
+    height: 500px;
+    background-color: red;
+    margin-top: 50px;
+}
+
+.parte-superiore{
+    height: 50px;
+    background-color: yellow;
+}
+
+.add{
+    width: 80px;
+    height: 30px;
+    background-color: salmon;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.first-add{
+}
