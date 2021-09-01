@@ -28,6 +28,7 @@
 
 /* main */
 
+/* Parte Superiore */
 .container-main{
     width: 70%;
     height: 500px;
@@ -53,18 +54,7 @@
     padding: 12px;
 }
 
-.parte-inferiore{
-    background-color: turquoise;
-
-}
-
-.subtitle{
-    margin: 30px 0 40px 30px;
-}
-.normal-text{
-    display: inline;
-}
-.link  {
-    display: inline-block;
-    background-color: blue;
+/* Parte Inferiore*/
+.container-list{
+    
 }
